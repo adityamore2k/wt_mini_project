@@ -9,7 +9,7 @@ if (isset($_SESSION['email'])) {
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Home | E-Store.com</title>
+        <title>Home | E-mobile shopping</title>
         <link rel="shortcut icon" href="img\srtcticon.png" type="image/png">
 
           <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +21,8 @@ if (isset($_SESSION['email'])) {
           <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
           <script src="js/bootstrap.min.js"></script>
+  
+        
     </head>
     <body style="padding-top: 50px;">
 
