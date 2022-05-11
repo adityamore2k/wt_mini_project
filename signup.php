@@ -21,18 +21,19 @@ if (isset($_SESSION['email'])) {
       <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
       <script src="js/bootstrap.min.js"></script>
+
+      <!-- Tailwind -->
+      <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <?php include "includes/header.php"; ?>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm-7">
-               <img src="./img/signuppage.jpg">
-            </div>
-
-            <div class="col-sm-5">
+        <!-- <div class="row"> -->
+          <!-- col-sm-5 -->
+          <!-- flex flex-col items-center -->
+            <div>
 
                 <h2 style="color:orange">SIGN UP</h2>
 
@@ -81,7 +82,7 @@ if (isset($_SESSION['email'])) {
 
                 </form>
         </div>
-    </div>
+    <!-- </div> -->
     </div>
 
       <?php include "includes/footer.php"; ?>
